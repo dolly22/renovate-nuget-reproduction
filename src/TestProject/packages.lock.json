@@ -11,6 +11,15 @@
           "Microsoft.NETFramework.ReferenceAssemblies.net462": "1.0.3"
         }
       },
+      "System.Threading.Tasks.Extensions": {
+        "type": "Direct",
+        "requested": "[4.6.1, )",
+        "resolved": "4.6.1",
+        "contentHash": "6ye9bJ3yUiAP2utm9P9Iw398IimKzXrkb0ATIi0l7lhESpqUCumwQBHDNhoQ3bD7u4YFqZV1jBL11lwDdi3bwg==",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.1"
+        }
+      },
       "System.ValueTuple": {
         "type": "Direct",
         "requested": "[4.6.0, )",
@@ -21,6 +30,11 @@
         "type": "Transitive",
         "resolved": "1.0.3",
         "contentHash": "IzAV30z22ESCeQfxP29oVf4qEo8fBGXLXSU6oacv/9Iqe6PzgHDKCaWfwMBak7bSJQM0F5boXWoZS+kChztRIQ=="
+      },
+      "System.Runtime.CompilerServices.Unsafe": {
+        "type": "Transitive",
+        "resolved": "6.1.1",
+        "contentHash": "YkOfl8PsmWT4ASkkEFFlfajgwomK8VnhwOIx0JEego69Tw5IqXjbzUBwNKcE5KprqlK92ZCYT56nQwmyEv45Ug=="
       }
     }
   }
